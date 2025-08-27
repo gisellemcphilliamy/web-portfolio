@@ -258,15 +258,15 @@ export default function HomePage() {
                 <p>
                 Hi there, happy you are here! I am a Computer Science graduate student at Georgia Tech with a strong 
                 foundation in Deep/Machine Learning, software engineering and full-stack development. I am interested 
-                in the healthcare field and developing innovative technologies to improve patient outcomes. 
+                in the intersection of healthcare and AI and developing innovative technologies to improve patient outcomes. 
                 </p>
                 <p>
                 My experience spans from curating data, training, developing and evaluating models to developing scalable 
                 applications for the web. I am always eager to learn about new technologies and work on new projects. 
                 </p>
                 <p>
-                When I am not working I also enjoy giving in my all on the pickleball court, exploring outside, eating at 
-                the best restraints and cooking some delicious meals too.
+                When I am not working I also enjoy giving it my all on the pickleball court, exploring outside, eating at 
+                the best restaurants and cooking some delicious meals too.
                 </p>
               </div>
 
