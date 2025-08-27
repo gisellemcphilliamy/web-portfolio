@@ -13,7 +13,7 @@ const photos = [
   {
     src: "/adventure.JPG",
     alt: "At a tech conference",
-    caption: "Travelling the world",
+    caption: "Traveling the world",
   },
   {
     src: "/hike.JPG",
@@ -24,6 +24,11 @@ const photos = [
     src: "/buzz.JPG",
     alt: "Outdoor adventure",
     caption: "Buzz on a snow day!",
+  },
+  {
+    src: "/grad.jpg",
+    alt: "More friends and graduation :)",
+    caption: "More friends and graduation :)",
   },
   // {
   //   src: "/research.png",
