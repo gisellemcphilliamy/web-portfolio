@@ -272,7 +272,7 @@ export default function HomePage() {
 
               <div className="pt-6">
                 <Button asChild size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-3">
-                  <a href="/Giselle_McPhilliamy.pdf" download>
+                  <a href="/Giselle_McPhilliamy_Resume_curr.pdf" download>
                     <Download className="mr-2 h-5 w-5" />
                     Download Resume
                   </a>
