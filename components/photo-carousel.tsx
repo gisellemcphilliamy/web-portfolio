@@ -26,7 +26,7 @@ const photos = [
     caption: "Buzz on a snow day!",
   },
   {
-    src: "/grad.jpg",
+    src: "/grad1.jpg",
     alt: "More friends and graduation :)",
     caption: "More friends and graduation :)",
   },

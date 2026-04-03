@@ -49,12 +49,12 @@ const workExperience = [
     location: "Atlanta, GA",
     period: "Nov 2024 - May 2025",
     overallDescription:
-      "Researched transformer models for cancer genomics to predict immune resistance, antigen binding, and outcomes.",
+      "Built a pipeline using Transformers to predict immune resistance and survival outcomes from oral cancer genomic data.",
     bulletPoints: [
-      "Fine-tuned DNABERT, TransVCOX, and Nucleotide Transformer on oral-cancer genomic datasets",
-      "Identified candidate immune-resistance biomarkers via PCA, clustering, and supervised learning",
-      "Built reproducible preprocessing and training pipelines for large-scale genomic sequences",
-      "Developed evaluation notebooks and visualizations to interpret model predictions and derive insights"
+      "Extracted genomic embeddings from oral cancer biopsies using DNABERT and Nucleotide Transformer to vectorize DNA sequences",
+      "Combined these features and passed into a TransVCOX framework to predict patient hazard ratios and identify potential biomarkers for immune resistance",
+      "Built data pipelines with PyTorch and Hugging Face to automate the preprocessing of genomic sequences",
+      "Designed attention-based visualizations to interpret model predictions and highlight high-risk genomic regions for clinical analysis"
     ],
     technologies: [
       "PyTorch", "Hugging Face Transformers", "Scikit-learn",
@@ -199,7 +199,7 @@ export default function HomePage() {
                   asChild
                   className="border-2 border-white/60 text-white/90 hover:bg-white/10 bg-transparent text-lg px-8 py-3"
                 >
-                  <a href="/Giselle_McPhilliamy.pdf" download>
+                  <a href="/Giselle_McPhilliamy_Resume_curr.pdf" download>
                     <Download className="mr-2 h-5 w-5" />
                     Download CV
                   </a>
