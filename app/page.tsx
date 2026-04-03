@@ -199,7 +199,7 @@ export default function HomePage() {
                   asChild
                   className="border-2 border-white/60 text-white/90 hover:bg-white/10 bg-transparent text-lg px-8 py-3"
                 >
-                  <a href="/Giselle_McPhilliamy_Resume_2026.pdf" download>
+                  <a href="/Giselle_McPhilliamy_Resume_curr.pdf" download>
                     <Download className="mr-2 h-5 w-5" />
                     Download CV
                   </a>
@@ -272,7 +272,7 @@ export default function HomePage() {
 
               <div className="pt-6">
                 <Button asChild size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-3">
-                  <a href="/Giselle_McPhilliamy_Resume_2026.pdf" download>
+                  <a href="/Giselle_McPhilliamy_Resume_curr.pdf" download>
                     <Download className="mr-2 h-5 w-5" />
                     Download Resume
                   </a>
