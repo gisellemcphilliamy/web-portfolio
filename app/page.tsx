@@ -51,10 +51,8 @@ const workExperience = [
     overallDescription:
       "Built a pipeline using Transformers to predict immune resistance and survival outcomes from oral cancer genomic data.",
     bulletPoints: [
-      "Extracted genomic embeddings from oral cancer biopsies using DNABERT and Nucleotide Transformer to vectorize DNA sequences",
-      "Combined these features and passed into a TransVCOX framework to predict patient hazard ratios and identify potential biomarkers for immune resistance",
-      "Built data pipelines with PyTorch and Hugging Face to automate the preprocessing of genomic sequences",
-      "Designed attention-based visualizations to interpret model predictions and highlight high-risk genomic regions for clinical analysis"
+      "Built a genomic data pipeline to reconstruct mutation-labeled sequences from COSMIC CMC using GRCh37 reference genome",
+      "Fine-tuned DNABERT & trained a leakage-safe classifier (StratifiedGroupKFold) to predict mutation pathogenicity tiers"
     ],
     technologies: [
       "PyTorch", "Hugging Face Transformers", "Scikit-learn",
@@ -70,9 +68,9 @@ const workExperience = [
     overallDescription:
       "Shipped a pluggable bug-triage framework and UI that streamlined fix recommendations for engineering teams.",
     bulletPoints: [
-      "Architected a plugin system to analyze bug tickets and recommend likely fixes",
-      "Implemented heuristic-based plugins to rank remediation strategies and accelerate resolution",
-      "Wrote comprehensive tests and CI checks, enabling a smooth, low-risk deployment",
+      "Built a Django service to process Salesforce bug tickets (missing IDs, typos, fragmented metadata) into engineer-ready reports",
+      "Developed a TF-IDF based retrieval plugin to match incoming bugs to resolved tickets, surfacing relevant fixes and reducing duplicate debugging",
+      "Deployed pluggable framework to F5 internal servers (VPN-accessible) for real-time bug triage and automated notifications",
       "Presented a deep-dive to ~25 engineers and supported onboarding and adoption"
     ],
     technologies: [
@@ -199,7 +197,7 @@ export default function HomePage() {
                   asChild
                   className="border-2 border-white/60 text-white/90 hover:bg-white/10 bg-transparent text-lg px-8 py-3"
                 >
-                  <a href="/Giselle_McPhilliamy_Resume_curr.pdf" download>
+                  <a href="/GiselleMcPhilliamy_Resume.pdf" download>
                     <Download className="mr-2 h-5 w-5" />
                     Download CV
                   </a>
@@ -272,7 +270,7 @@ export default function HomePage() {
 
               <div className="pt-6">
                 <Button asChild size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-3">
-                  <a href="/Giselle_McPhilliamy_Resume_curr.pdf" download>
+                  <a href="/GiselleMcPhilliamy_Resume.pdf" download>
                     <Download className="mr-2 h-5 w-5" />
                     Download Resume
                   </a>
