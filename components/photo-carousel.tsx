@@ -16,6 +16,11 @@ const photos = [
     caption: "Traveling the world",
   },
   {
+    src: "/ski_sucess.jpg",
+    alt: "Skiing #goJackets",
+    caption: "Skiing #goJackets",
+  },
+  {
     src: "/hike.JPG",
     alt: "Team collaboration",
     caption: "Hikes in Seattle",
@@ -25,11 +30,7 @@ const photos = [
     alt: "Outdoor adventure",
     caption: "Buzz on a snow day!",
   },
-  {
-    src: "/grad1.jpg",
-    alt: "More friends and graduation :)",
-    caption: "More friends and graduation :)",
-  },
+
   // {
   //   src: "/research.png",
   //   alt: "Outdoor adventure",
