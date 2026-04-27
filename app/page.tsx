@@ -104,7 +104,7 @@ const projects = [
   {
     title: "S.A.M.E. (Software Application for Medical Emergencies)",
     description:
-      "Mobile diagnosis app for Emory Hospital that guides trainees through emergency scenarios and ranks likely diagnoses in <750 ms with a k-NN–backed API.",
+      "Mobile diagnosis app for Emory Hospital that guides trainees through emergency scenarios and ranks likely diagnoses in <750 ms with a KNN backed API.",
     bulletPoints: [
       "Led a 6-person team through full-stack design, development, and delivery",
       "Built a Firebase backend with RESTful CRUD endpoints following Agile practices",
@@ -116,6 +116,47 @@ const projects = [
       live: ""
     }
   },  
+  {
+    title: "GTCourseHelper",
+    description:
+      "AI Powered Course Recommendation System",
+    bulletPoints: [
+      "Implemented a RAG-based course recommendation system via hybrid semantic search using 384-dimensional embeddings and cosine similarity for course queries",
+      
+      "Built conversational chat interface with GPT-4 integration and session management for course recommendations",
+      
+      "Developed FastAPI backend with React frontend for real-time course discovery and review submission"
+    ],
+    technologies: ["Python", "FastAPI", "React", "Sentence Transformers", "Semantic Search", "GPT-4", "RAG"],
+    links: {
+      github: "https://github.com/gisellemcphilliamy/GTCourseHelper",
+    }
+  },
+  {
+    title: "Broadway Data Visualization Project",
+    description:
+      "Interactive data visualization platform analyzing 30+ years of Broadway data to uncover drivers of attendance and revenue",
+    bulletPoints: [
+      "Built interactive geospatial visualization (D3.js, Leaflet) with dynamic filtering and real-time aggregation of theater performance data",
+    
+      "Implemented bipartite graph (D3.js) linking theaters to award-winning productions with on-demand edge computation to scale rendering",
+    
+      "Developed data pipeline (Python, Pandas) to aggregate 30 years of weekly data, merge external datasets (CPI, tourism), and compute correlations for analysis"
+    ],
+    technologies: [
+      "Python",
+      "Pandas",
+      "D3.js",
+      "Tableau",
+      "JavaScript",
+      "Data Visualization",
+      "Time Series Analysis",
+    ],
+    links: {
+      github: "https://github.com/gisellemcphilliamy/broadway_vis",
+      live: "https://broadway-vis.vercel.app/",
+    }
+  },
   {
     title: "Textile Vision — CLIP-Conditioned Stable Diffusion",
     description:

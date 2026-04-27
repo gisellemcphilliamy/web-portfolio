@@ -16,7 +16,7 @@ const photos = [
     caption: "Traveling the world",
   },
   {
-    src: "/ski_sucess.jpg",
+    src: "/ski.jpeg",
     alt: "Skiing #goJackets",
     caption: "Skiing #goJackets",
   },
